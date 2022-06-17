@@ -127,8 +127,8 @@ h1, h2{
     box-shadow: 0 0 15px rgba(122, 122, 122, 0.425);
     cursor: pointer;
     transition: all 0.5s;
-    animation-duration: 3s;
-    animation-name: slidein;
+    /* animation-duration: 3s;
+    animation-name: slidein; */
 }
 
 .headb:hover{
@@ -302,21 +302,21 @@ footer{
     background-image: url('assets\bg-hero-mobile.svg');
     }
 
-    .logo{
-        width: 10px;
+    img{
+        width: 170px;
     }
 
     @keyframes slidein {
-  from {
-    margin-left: 300%;
-    width: 100%;
-  }
+    from {
+        margin-left: 300%;
+        width: 100%;
+    }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
+    to {
+        margin-left: 0%;
+        width: 70%;
+    }
+    }
 
 
 
