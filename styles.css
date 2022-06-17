@@ -69,6 +69,24 @@ p{
     padding-bottom: 1.2em;
 }
 
+
+@keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.image{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
 img{
     display: block;
     width: 100%;
@@ -109,6 +127,8 @@ h1, h2{
     box-shadow: 0 0 15px rgba(122, 122, 122, 0.425);
     cursor: pointer;
     transition: all 0.5s;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
 .headb:hover{
