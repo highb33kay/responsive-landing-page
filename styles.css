@@ -272,6 +272,10 @@ footer{
     width: auto;
     padding: 20px;
     }
+    
+    .hero-section{
+    background-image: url('assets\bg-hero-mobile.svg');
+    }
 
     .logo{
         width: 150px;
