@@ -286,9 +286,9 @@ footer{
         text-align: center;
     }
 
-.hero-section{
-    background-image: url('assets\bg-hero-mobile.svg');
-}
+    .hero-section{
+        background-image: url('assets\bg-hero-mobile.svg');
+    }
 
     nav {
     display: flex;
@@ -303,8 +303,22 @@ footer{
     }
 
     .logo{
-        width: 150px;
+        width: 10px;
     }
+
+    @keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
 
     h1, h2{
         font-family: "Poppins",sans-serif;
@@ -409,7 +423,7 @@ footer{
     border: none;
     font-family: "Poppins",sans-serif;
     border-radius: 20px;
-    padding: 13px 20px 13px 20px;
+    padding: 13px 10px 13px 10px;
     position: inherit;
 
 }
